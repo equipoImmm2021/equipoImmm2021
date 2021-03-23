@@ -40,6 +40,6 @@ body {
 }
 #divsuperior Button:focus{
 	outline: 0;
-	border: 2px solid var(--azul);
+	border: 2px solid var(--amarillo);
 }
 
