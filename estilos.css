@@ -36,12 +36,9 @@ body {
 }
 #divsuperior Button:hover{
 	background-color: var(--amarillo);
-	border-color:white;
 	border: 2px solid var(--azul);
 }
-#divsuperior Button:{
-
-
-	border: 0px solid white;
+#divsuperior Button:focus{
+	outline: 0;
 }
 
