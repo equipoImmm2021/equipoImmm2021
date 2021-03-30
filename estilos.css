@@ -1,4 +1,3 @@
-
 :root{
 	/* Paleta de colores */
 	/* var(--); */
@@ -13,7 +12,10 @@
 body {
 	background-color:var(--morado);
 }
-
+a {
+	text-decoration: none;
+	color: var(--negro);
+}
 #divsuperior{
 	position: fixed;
 	height: 10%;
@@ -43,3 +45,31 @@ body {
 	border: 2px solid var(--amarillo);
 }
 
+#icontenido {
+	position: absolute;
+	top: 10%;
+	width: 99%;
+	height: 90%;
+	border: 0px;
+}
+
+/* Etilo pagina personaje */
+.personaje {
+	float: left;
+	display: inline;
+}
+.silueta{
+	float: left;
+	width: 400px;
+	height: 450px;
+	background: url("Imagenes/silueta1.png") no-repeat;
+}
+.silueta:hover {
+	background: url("Imagenes/personaje1.png") no-repeat;
+}
+
+.personajep{
+	width: 400px;
+	height: 450px;
+	float: left;
+}
