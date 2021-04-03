@@ -16,9 +16,6 @@ a {
 	text-decoration: none;
 	color: var(--negro);
 }
-iframe {
-	border: 0px;
-}
 #divsuperior{
 	position: fixed;
 	height: 10%;
@@ -49,46 +46,52 @@ iframe {
 }
 
 #icontenido {
-	position: fixed;
+	position: absolute;
 	top: 10%;
 	width: 99%;
 	height: 90%;
-	padding: 0px;
-	margin: 0px;
-}
-/* Estilo de paginas centradas*/
-.pagcenter {
-	justify-content: center;
-	align-items: center;
+	border: 0px;
 }
 
-/* Estilo pagina El juego */
-#dchar {
-	text-align: center;	
-}
-#iconoschar {
-	justify-content: center;
-	align-items: center;
-}
 /* Estilo pagina personaje */
 .personaje {
-	float: left;
+	position: relative;
+	align-items: center;
 	display: inline;
+}
+/*Para el tamaño automático de las imágenes en el div*/
+.characters {
+	display: block;
+	margin: auto;
+	max-width: inherit;
+	max-height: inherit;
 }
 .silueta{
 	float: left;
+	display: flex;
+	align-items: center;
+	max-width: 400px;
+	max-height: 450px;
+}
+.overlaySilueta{
+	position: absolute;
+	display: flex;
+	align-items: center;
 	width: 400px;
 	height: 450px;
-	background: url("Imagenes/silueta1.png") no-repeat;
+	opacity: 0;
+	transition: ease;
+	background-color: var(--morado);
 }
-.silueta:hover {
-	background: url("Imagenes/personaje1.png") no-repeat;
+.silueta:hover .overlaySilueta {
+	opacity: 1;
 }
 
-/* Estilos mundo y niveles */
-
-#bllanura{
-	background: url("Imagenes/bllanura.png") no-repeat;
-	width: auto;
-	height: auto;
+.descripcion{
+	float: left;
+	display: flex;
+	align-items: center;
+	height: 450px;
+	margin-left: 0.5%;
+	padding-left: 2%;
 }
