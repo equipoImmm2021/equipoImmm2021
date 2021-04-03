@@ -52,6 +52,9 @@ a {
 	height: 90%;
 	border: 0px;
 }
+iframe {
+	border: 0px;
+}
 /* Estilo de paginas centradas*/
 .pagcenter {
 	display: flex;
