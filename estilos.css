@@ -16,6 +16,9 @@ a {
 	text-decoration: none;
 	color: var(--negro);
 }
+iframe {
+	border: 0px;
+}
 #divsuperior{
 	position: fixed;
 	height: 10%;
@@ -47,13 +50,9 @@ a {
 
 #icontenido {
 	position: absolute;
-	top: 10%;
+	top: 11%;
 	width: 99%;
 	height: 90%;
-	border: 0px;
-}
-iframe {
-	border: 0px;
 }
 /* Estilo de paginas centradas*/
 .pagcenter {
