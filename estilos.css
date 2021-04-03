@@ -84,3 +84,11 @@ iframe {
 .silueta:hover {
 	background: url("Imagenes/personaje1.png") no-repeat;
 }
+
+/* Estilos mundo y niveles */
+
+#bllanura{
+	background: url("Imagenes/bllanura.png") no-repeat;
+	width: auto;
+	height: auto;
+}
