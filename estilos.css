@@ -63,12 +63,7 @@ iframe {
 }
 
 /* Estilo pagina El juego */
-#dchar {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 
-}
 #dchar a {
 	float:left;
 }
