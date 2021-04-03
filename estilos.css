@@ -123,3 +123,9 @@ iframe{
 	width: auto;
 	height: auto;
 }
+#framechar{
+	max-width: 50%;
+}
+#framemundo{
+	max-width: 50%;
+}
