@@ -52,8 +52,24 @@ a {
 	height: 90%;
 	border: 0px;
 }
+/* Estilo de paginas centradas*/
+.pagcenter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
-/* Etilo pagina personaje */
+/* Estilo pagina El juego */
+#dchar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#dchar a {
+	float:left;
+}
+/* Estilo pagina personaje */
 .personaje {
 	float: left;
 	display: inline;
@@ -66,10 +82,4 @@ a {
 }
 .silueta:hover {
 	background: url("Imagenes/personaje1.png") no-repeat;
-}
-
-.personajep{
-	width: 400px;
-	height: 450px;
-	float: left;
 }
