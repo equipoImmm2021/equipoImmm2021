@@ -63,9 +63,13 @@ iframe {
 }
 
 /* Estilo pagina El juego */
-
-#dchar a {
-	float:left;
+#dchar {
+	text-align: center;	
+}
+#iconoschar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 /* Estilo pagina personaje */
 .personaje {
