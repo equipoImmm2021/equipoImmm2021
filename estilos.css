@@ -56,7 +56,6 @@ iframe {
 }
 /* Estilo de paginas centradas*/
 .pagcenter {
-	display: flex;
 	justify-content: center;
 	align-items: center;
 }
