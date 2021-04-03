@@ -124,7 +124,8 @@ iframe{
 	height: auto;
 }
 #framechar{
-	max-width: 50%;
+	width: 50%;
+	border: 1px var(--azul);
 }
 #framemundo{
 	max-width: 50%;
