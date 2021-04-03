@@ -53,6 +53,8 @@ iframe {
 	top: 10%;
 	width: 99%;
 	height: 90%;
+	padding: 0px;
+	margin: 0px;
 }
 /* Estilo de paginas centradas*/
 .pagcenter {
