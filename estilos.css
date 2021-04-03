@@ -46,11 +46,12 @@ a {
 }
 
 #icontenido {
-	position: absolute;
+	position: fixed;
 	top: 10%;
 	width: 99%;
 	height: 90%;
-	border: 0px;
+	padding: 0px;
+	margin: 0px;
 }
 
 /* Estilo pagina personaje */
@@ -94,4 +95,27 @@ a {
 	height: 450px;
 	margin-left: 0.5%;
 	padding-left: 2%;
+}
+
+/* Estilo de paginas centradas*/
+.pagcenter {
+	justify-content: center;
+	align-items: center;
+}
+
+/* Estilo pagina El juego */
+#dchar {
+	text-align: center;	
+}
+#iconoschar {
+	justify-content: center;
+	align-items: center;
+}
+
+/* Estilos mundo y niveles */
+
+#bllanura{
+	background: url("Imagenes/bllanura.png") no-repeat;
+	width: auto;
+	height: auto;
 }
