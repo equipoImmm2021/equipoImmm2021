@@ -130,3 +130,7 @@ iframe{
 #framemundo{
 	max-width: 50%;
 }
+#dmundo {
+	justify-content: center;
+	align-items: center;
+}
