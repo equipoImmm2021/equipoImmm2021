@@ -128,9 +128,15 @@ iframe{
 	border: 1px var(--azul);
 }
 #framemundo{
-	max-width: 50%;
+	width: 50%;
+	border: 1px var(--azul);
 }
 #dmundo {
 	justify-content: center;
 	align-items: center;
+}
+#dmundo Button{
+	border: 0px;
+	margin; 0px;
+	
 }
