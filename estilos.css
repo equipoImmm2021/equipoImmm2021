@@ -64,6 +64,7 @@ iframe{
 	position: relative;
 	align-items: center;
 	display: inline;
+	border: 1px solid var(--amarillo);
 }
 /*Para el tamaño automático de las imágenes en el div*/
 .characters {
