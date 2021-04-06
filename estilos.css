@@ -71,6 +71,7 @@ iframe{
 	margin: auto;
 	max-width: inherit;
 	max-height: inherit;
+	overflow: auto;
 }
 .silueta{
 	float: left;
@@ -90,7 +91,6 @@ iframe{
 }
 
 .descripcion{
-	float: left;
 	display: flex;
 	align-items: center;
 	margin-left: 0.5%;
