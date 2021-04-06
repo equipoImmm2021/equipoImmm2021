@@ -121,10 +121,12 @@ iframe{
 }
 #framechar{
 	width: 50%;
+	height: 800px;
 	border: 1px solid var(--azul);
 }
 #framemundo{
 	width: 50%;
+	height: 800px;
 	border: 1px solid var(--azul);
 }
 #dmundo {
@@ -132,7 +134,7 @@ iframe{
 	justify-content: center;
 	align-items: center;
 }
-#dmundo Button{
+#mundo Button{
 	border: 0px;
 	margin: 0px;
 	border-radius:1px;
