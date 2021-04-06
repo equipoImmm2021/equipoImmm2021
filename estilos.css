@@ -119,18 +119,20 @@ iframe{
 }
 #framechar{
 	width: 50%;
-	border: 1px var(--azul);
+	border: 1px solid var(--azul);
 }
 #framemundo{
 	width: 50%;
-	border: 1px var(--azul);
+	border: 1px solid var(--azul);
 }
 #dmundo {
+	text-align: center;
 	justify-content: center;
 	align-items: center;
 }
 #dmundo Button{
 	border: 0px;
-	margin; 0px;
+	margin: 0px;
+	border-radius:1px;
 	
 }
