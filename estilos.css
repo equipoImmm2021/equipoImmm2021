@@ -75,15 +75,10 @@ iframe{
 	float: left;
 	display: flex;
 	align-items: center;
-	max-width: 400px;
-	max-height: 450px;
 }
 .overlaySilueta{
-	position: absolute;
 	display: flex;
 	align-items: center;
-	width: 400px;
-	height: 450px;
 	opacity: 0;
 	transition: ease;
 	background-color: var(--morado);
@@ -96,7 +91,6 @@ iframe{
 	float: left;
 	display: flex;
 	align-items: center;
-	height: 450px;
 	margin-left: 0.5%;
 	padding-left: 2%;
 }
