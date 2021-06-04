@@ -6,6 +6,11 @@
  * License: Creative Commons Attribution 3.0 License
  * Website: https://themes.3rdwavemedia.com/
 */
+@font-face {
+  font-family: "Kalandor";
+  src: url("../media/Kalandor.ttf");
+}
+
 body {
   font-family: 'Open Sans', arial, sans-serif;
   color: #494d55;
@@ -68,6 +73,16 @@ a:focus {
   border: 1px solid #40babd;
   color: #fff;
 }
+.portada{
+	display: inline-block;
+}
+.imagenrecompensa{
+	align-content: center;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+		
+}
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.hover {
   background: #3aa7aa;
@@ -109,12 +124,13 @@ a:focus {
 }
 
 .carousel-indicators li {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #ddb967;
   border: none;
-  width: 11px;
-  height: 11px;
+  width: 5px;
+  height: 5px;
   margin: 0;
   margin-right: 8px;
+	margin-top: 3px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -313,7 +329,7 @@ a:focus {
 /* ======= Hero Section ======= */
 .hero-section {
   min-height: 560px;
-  background: #494d55;
+  background: #584364;
   position: relative;
 }
 
@@ -323,12 +339,18 @@ a:focus {
   bottom: 0;
   width: 100%;
   overflow: hidden;
+	display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-section .figure-holder {
   position: relative;
   height: 560px;
   width: 100%;
+	display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-section .figure-holder .figure-image {
@@ -345,45 +367,50 @@ a:focus {
 
 .hero-carousel .carousel-inner .carousel-item {
   height: 560px;
-  background-position: center center;
+	display: inline-block;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
 }
 
 .hero-carousel .carousel-inner .item-1 {
-  background-image: url("../images/hero-1.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .hero-carousel .carousel-inner .item-2 {
-  background-image: url("../images/hero-2.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
-.hero-carousel .carousel-inner .item-3 {
-  background-image: url("../images/hero-3.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 .hero-carousel .carousel-inner .heading {
   font-size: 30px;
   line-height: 1.4;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+	display: inline-block;
+  text-align: center;
 }
-
+.hero-carousel .carousel-inner{
+  display: inline-block;
+  text-align: center;
+}
 .hero-carousel .carousel-inner .intro {
   font-size: 18px;
 }
-
+.item-content .container{
+	
+  justify-content: center;
+  align-items: center;
+	display: inline-block;
+}
 .hero-carousel .carousel-inner .intro + .btn {
   margin-top: 15px;
 }
@@ -396,8 +423,9 @@ a:focus {
 .about-section .section-title {
   margin: 0;
   margin-bottom: 15px;
-  font-size: 36px;
+  font-size: 60px;
   font-weight: 300;
+	font-family: "Kalandor";
 	color: #ddb967;
 }
 
@@ -436,7 +464,7 @@ a:focus {
 }
 
 .technologies {
-  margin-bottom: 90px;
+  margin-bottom: 0px;
 }
 
 .technologies .list-inline-item {
@@ -448,7 +476,7 @@ a:focus {
 }
 
 .testimonials {
-  background: #40babd;
+  background: #584364;
 }
 
 .testimonials-inner {
@@ -470,7 +498,7 @@ a:focus {
 
 .testimonials-inner .quote {
   background: rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color:  #ddb967;
   margin-left: 130px;
   border-left: none;
   margin-bottom: 0;
@@ -502,7 +530,7 @@ a:focus {
 
 /* ======= Testimonials Section ======= */
 .testimonials-section {
-  background: #40babd url("../images/map.png") no-repeat center center;
+  background: #584364;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -514,9 +542,10 @@ a:focus {
 .testimonials-section .section-title {
   margin: 0;
   margin-bottom: 30px;
-  font-size: 36px;
+  font-size: 60px;
   font-weight: 300;
-  color: #fff;
+  color: #ddb967;
+	font-family: "Kalandor";
 }
 
 .testimonials-section .item {
@@ -564,7 +593,7 @@ a:focus {
 
 .testimonials-section .item .quote {
   background: rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color: #ddb967;
   margin-left: 105px;
   border-left: none;
   margin-bottom: 0;
@@ -595,7 +624,7 @@ a:focus {
 }
 
 .testimonials-section .item .quote-source {
-  color: rgba(0, 0, 0, 0.6);
+  color: #fff;
 }
 
 /* ======= Features Section ======= */
@@ -607,9 +636,10 @@ a:focus {
 .features-section .section-title {
   margin: 0;
   margin-bottom: 15px;
-  font-size: 36px;
+  font-size: 60px;
   font-weight: 300;
 	color: #ddb967;
+	font-family: "Kalandor";
 
 }
 
@@ -670,9 +700,10 @@ a:focus {
 .pricing-section .section-title {
   margin: 0;
   margin-bottom: 15px;
-  font-size: 36px;
+  font-size: 60px;
   font-weight: 300;
 	color: #ddb967;
+	font-family: "Kalandor";
 }
 
 .pricing-section .intro {
@@ -767,15 +798,16 @@ a:focus {
 .team-section {
   padding-top: 90px;
   padding-bottom: 90px;
-  background: #f5f5f5;
+  background: #584364;
 }
 
 .team-section .section-title {
   margin: 0;
   margin-bottom: 15px;
-  font-size: 36px;
+  font-size: 60px;
   font-weight: 300;
 	color: #ddb967;
+	font-family: "Kalandor";
 }
 
 .team-section .intro {
@@ -804,12 +836,13 @@ a:focus {
 
 .team-section .item-inner {
   padding: 30px;
+	margin-bottom: 10px;
   background: #fff;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
-  border-radius: 8px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
@@ -827,6 +860,7 @@ a:focus {
   margin-top: 0;
   margin-bottom: 15px;
   color: #616670;
+	font-family: "Kalandor";
 }
 
 .team-section .social {
@@ -922,10 +956,11 @@ a:focus {
 .contact-section .section-title {
   margin: 0;
   margin-bottom: 15px;
-  font-size: 36px;
+  font-size: 60px;
   font-weight: 300;
   margin-bottom: 30px;
 	color: #ddb967;
+	font-family: "Kalandor";
 }
 
 .contact-content {
@@ -965,6 +1000,9 @@ a:focus {
   }
   .hero-carousel .carousel-inner .item-content-inner {
     padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
   .hero-section .figure-holder .figure-image {
     width: inherit;
@@ -1016,8 +1054,9 @@ a:focus {
     top: 130px;
   }
   .hero-carousel .carousel-inner .item-content-inner {
-    max-width: 300px;
-    padding-top: 120px;
+    max-width: 660px;
+    padding-top: 0px;
+	  align-content: center;
   }
 }
 
