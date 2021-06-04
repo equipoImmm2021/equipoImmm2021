@@ -77,10 +77,7 @@ a:focus {
 	display: inline-block;
 }
 .imagenrecompensa{
-	align-content: center;
-	display: inline-block;
-	width: 100%;
-	height: auto;
+	margin:auto;
 		
 }
 
