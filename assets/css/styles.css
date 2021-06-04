@@ -5,6 +5,7 @@
  * Twitter: @3rdwave_themes
  * License: Creative Commons Attribution 3.0 License
  * Website: https://themes.3rdwavemedia.com/
+ * Edited: Daniel Bermejo
 */
 @font-face {
   font-family: "Kalandor";
@@ -457,7 +458,7 @@ a:focus {
 }
 
 .about-section .items-wrapper .item-desc {
-  color: color: #fff;
+  color: #fff;
 }
 
 .technologies {
